@@ -1,0 +1,88 @@
+
+TimeIndex            16.325403406397708  
+NextId               20  
+DeltaTime            0.0098083998330293198  
+PlayTime             11.689574033722010  
+SaveVersion          1  
+GameMode             Creative  
+BEGIN HUD        Camera.x 0  Camera.y 0  ViewSize 500  END
+BEGIN Galaxy     
+    EntrySystem          7  
+    ExitSystem           10  
+    CurrentSystem        1  
+    NextId               12  
+    Position.x           910.1145  
+    Position.y           739.9464  
+    VoidPosition.x       179.6549  
+    VoidPosition.y       732.2400  
+    VoidRadius           50.40000  
+    PrevSectorPosition.x -840.0000  
+    PrevSectorPosition.y 1312.500  
+    NextSectorPosition.x 2520.000  
+    NextSectorPosition.y -262.5000  
+    BEGIN Objects    
+        Size                 11  
+        BEGIN "[i 0]"      Id 1  Position.x 910.1145  Position.y 739.9464  Radius 15.00000  Name NC1  Colony true  Shipyard true  END
+        BEGIN "[i 1]"      Id 2  Position.x 446.0000  Position.y 497.0000  Radius 12.98865  Name NC2  END
+        BEGIN "[i 2]"      Id 3  Position.x 537.0000  Position.y 100.0000  Radius 12.50753  Name NC3  Shipyard true  END
+        BEGIN "[i 3]"      Id 4  Position.x 289.0000  Position.y 222.0000  Radius 13.55379  Name NC4  Colony true  END
+        BEGIN "[i 4]"      Id 5  Position.x 1337.000  Position.y 430.0000  Radius 14.92989  Name NC5  END
+        BEGIN "[i 5]"      Id 6  Position.x 955.0000  Position.y 638.0000  Radius 13.17326  Name NC6  END
+        BEGIN "[i 6]"      Id 7  Position.x 232.0000  Position.y 933.0000  Radius 13.81014  Name NC7  Hostiles true  END
+        BEGIN "[i 7]"      Id 8  Position.x 1182.000  Position.y 728.0000  Radius 14.29097  Name NC8  Colony true  END
+        BEGIN "[i 8]"      Id 9  Position.x 1170.000  Position.y 864.0000  Radius 15.94377  Name NC9  Rescue true  END
+        BEGIN "[i 9]"      Id 10  Position.x 1455.000  Position.y 279.0000  Radius 13.02266  Name NC10  END
+        BEGIN "[i 10]"     Id 11  Position.x 476.0000  Position.y 599.0000  Radius 14.38342  Name NC11  Colony true  END
+    END
+    BEGIN Hazards    
+        Size                 2  
+        BEGIN "[i 0]"      Position.x 445.6263  Position.y 493.4758  Radius 121.0120  Rotation 31.02539  Type 1  END
+        BEGIN "[i 1]"      Position.x 1171.806  Position.y 852.4972  Radius 125.6873  Rotation 43.70361  Type 1  END
+    END
+    BEGIN SystemArchives END
+END
+BEGIN Trade      
+    TradePossible        false  
+    BEGIN OurStock   END
+    BEGIN TheirStock   END
+    BEGIN Trade      END
+END
+BEGIN FTL        END
+BEGIN Orders     END
+BEGIN Score      END
+BEGIN Physics    END
+BEGIN Missions   END
+BEGIN Story      END
+BEGIN Weather    END
+BEGIN Ratings    END
+BEGIN Logistics  END
+BEGIN Layer      
+    Id                   12  
+    Name                 NewShip  
+    Type                 FriendlyShip  
+    BEGIN GridMap    
+        Width                240  
+        Height               160  
+        BEGIN Palette    
+            BEGIN .          END
+        END
+        BEGIN Cells      END
+    END
+    BEGIN Networks   END
+    BEGIN WorkQueue  END
+    BEGIN Welfare    END
+    BEGIN Habitation SewageTimer 0.25337059568509551  END
+    BEGIN Deliveries 
+        BEGIN Trade      END
+    END
+END
+BEGIN Objects    
+    Size                 6  
+    BEGIN "[i 0]"      Id 13  Type Asteroid  Position.x 200.0000  Radius 15.59484  END
+    BEGIN "[i 1]"      Id 14  Type MineralPatch  Position.x 200.0000  Toughness 180.0000  Resource TiliumOre  Quantity 250  END
+    BEGIN "[i 2]"      Id 15  Type MineralPatch  Position.x 210.0000  Position.y 10.00000  Toughness 180.0000  Resource PreciousOre  Quantity 250  END
+    BEGIN "[i 3]"      Id 16  Type MineralPatch  Position.x 190.0000  Position.y -10.00000  Toughness 180.0000  Resource MetallicMinerals  Quantity 250  END
+    BEGIN "[i 4]"      Id 17  Type GasCloud  Position.x 0  Position.y 250.0000  Resource MetreonGas  Quantity 2500.000  Radius 200.0000  END
+    BEGIN "[i 5]"      Id 18  Type Comet  Position.x -200.0000  Position.y 0  Radius 25.00000  END
+    BEGIN "[i 6]"      Id 19  Type MineralPatch  Position.x 190.0000  Position.y -10.00000  Toughness 180.0000  Resource Ice  Quantity 250  Asteroid  6006  END
+END
