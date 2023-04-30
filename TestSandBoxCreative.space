@@ -84,5 +84,5 @@ BEGIN Objects
     BEGIN "[i 3]"      Id 16  Type MineralPatch  Position.x 190.0000  Position.y -10.00000  Toughness 180.0000  Resource MetallicMinerals  Quantity 250  END
     BEGIN "[i 4]"      Id 17  Type GasCloud  Position.x 0  Position.y 250.0000  Resource MetreonGas  Quantity 2500.000  Radius 200.0000  END
     BEGIN "[i 5]"      Id 18  Type Comet  Position.x -200.0000  Position.y 0  Radius 25.00000  END
-    BEGIN "[i 6]"      Id 19  Type MineralPatch  Position.x 190.0000  Position.y -10.00000  Toughness 180.0000  Resource Ice  Quantity 250  Asteroid  6006  END
+    BEGIN "[i 6]"      Id 19  Type MineralPatch  Position.x 190.0000  Position.y -10.00000  Toughness 180.0000  Resource Ice  Quantity 250  Asteroid  18  END
 END
